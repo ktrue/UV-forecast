@@ -52,8 +52,8 @@ This code will show the available forecasts with text description and the requir
 function getUVword (  $inUV ) {
 // figure out a text value and color for UV exposure text
 //  0 to 2  Low
-//  3 to 5     Moderate
-//  6 to 7     High
+//  3 to 5  Moderate
+//  6 to 7  High
 //  8 to 10 Very High
 //  11+     Extreme
    $uv = preg_replace('|,|','.',$inUV); // in case decimal comma option is selected
