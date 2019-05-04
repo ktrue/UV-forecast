@@ -1,4 +1,4 @@
-# >UV Index forecast by latitude/longitude
+# UV Index forecast by latitude/longitude
 
 I've received permission from [KNMI/EMA](http://www.knmi.nl/) to use their handy [multi-day UV-Index forecast](http://www.temis.nl/uvradiation/nrt/uvindex.php) which is based on latitude and longitude of the location. There is a requirement that you credit them as copyright holders as shown in the example below. The **$requiredNote** string contains the required text. The program doesn't print anything (except HTML comments) when run and is designed to be included in your page (see below). The only required settings are:
 
